@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 function Navbar() {
     // nav itemss
-  let navitems = [
+  const navitems = [
    
     {
       name: "Work",
@@ -19,7 +19,7 @@ function Navbar() {
     },
     {
       name: "Contact",
-      link: "#featured-work",
+      link: "#",
     },
   ];
 

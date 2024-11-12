@@ -15,9 +15,8 @@ export default function Home() {
  <Hero/>
  <RecentPost/>
    {/* Featured Work Section */}
-   <section id="featured-work" className="min-h-screen py-12">
-          <FeaturedWork />
-        </section>
+  <FeaturedWork />
+      
     </div>
   );
 }
